@@ -1,0 +1,61 @@
+body{
+  margin:auto auto;
+  box-sizing: border-box;
+}
+button, .submit-btn{
+  cursor: pointer;
+}
+
+.login-form{
+  width: 400px;
+  height: 500px;
+  margin: 100px auto auto auto;
+  padding: 20px;
+  border: 1px;
+  border-radius: 30px;
+  background-image: url('../img/손흥민.png');
+  background-position: center;
+  background-size: cover;
+}
+.login-form h1{
+ text-align: center;
+ margin-bottom: 10px;
+ padding: 20px;
+ font: bold 30px/1.2 'arial';
+}
+.login-form a{
+  color: #eee;
+  text-decoration: none;
+}
+.login-form label{
+  font-size: 14px;
+}
+.text-field{
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font: normal 14px 'arial';
+}
+.submit-btn, .find-btn{
+  width: 100%;
+  font: normal 14px 'arial';
+  background-color: rgb(214, 214, 214);
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(136, 135, 135);
+}
+.submit-btn:hover{
+background-color: rgb(255, 255, 255);
+  color: #000;
+}
+.submit-btn:active{
+  background-color: rgb(214, 214, 214);
+  color: rgb(136, 135, 135);
+}
+
+
+

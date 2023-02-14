@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.douzone.reactYW.Dao.BoardDAO">
+
+
+
+	<select id="boardList" resultType="com.douzone.reactYW.entity.BoardVO"  >
+			select * from Board order by bdate desc
+	</select>
+	
+	<select id="boardContent" resultType="com.douzone.reactYW.entity.BoardVO"  >
+			select * from Board where bno = #{bno}
+	</select>
+	
+	<insert id="regist" >
+	 	insert into board( btitle, bwriter, bcontent) values (#{btitle}, #{bwriter}, #{bcontent})  
+    </insert>
+	  
+	<update id="edit" >
+			update Board
+			       set btitle=#{btitle} , bcontent = #{bcontent}
+		 	       where bno=#{bno}
+	</update>
+	
+	<delete id="delete" >
+	      delete from Board
+	      where bno=#{bno}
+	</delete>
+</mapper>

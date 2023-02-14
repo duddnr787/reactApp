@@ -1,0 +1,40 @@
+.member_wrap {
+	height: 1000px;
+	background-image: url("../img/잔디.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+.member {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 100px;
+	width: 700px;
+	height: 300px;
+	padding: 20px;
+	border: 1px;
+    margin-left:25%;
+	border-radius: 30px;
+    background-image: url("../img/배경.png");
+	background-position: center;
+	background-size: cover;
+    box-shadow: 10px 10px 10px #000000;
+}
+.memberImg{
+    width: 200px;
+    height: 200px;
+    border-radius: 40%;
+    margin-top: 30px;
+    background-image: url("../img/손흥민2.png");
+    box-shadow: 5px 5px 5px #000000;
+	background-position: center;
+	background-size: cover;
+}
+.memberInfo{
+    width: 400px;
+    height: 200px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #000000;
+    background-color: white;
+}

@@ -1,0 +1,35 @@
+.wrap{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Info_img{
+  width: 40%;
+  height: 400px;
+  background-image: url('../img/풋살장.png');
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+.Info_img1{
+  width: 40%;
+  height: 400px;
+  background-image: url('../img/풋살장1.png');
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+.Info_img2{
+  width: 40%;
+  height: 400px;
+  background-image: url('../img/풋살장2.png');
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+.Info{
+  margin-top: 100px;
+  width: 40%;
+  height: 400px;
+}

@@ -1,0 +1,50 @@
+.main_bg{
+  height: 800px;
+  background-image: url('../img/메인.png');
+  background-position: center;
+  background-size: cover;
+}
+.content{
+  width: 700px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 5px #000000;
+}
+
+.bg{
+  height: 100%;
+  padding-bottom: 30px;
+  background-image: url('../img/잔디.jpeg');
+  background-position: center;
+  background-size:cover;
+}
+.write_form{
+  position: relative;
+  top: 100px;
+  width: 500px;
+  margin: 0 auto;
+}
+.Card{
+  background-image: url('../img/배경.png');
+  background-position: center;
+  background-size: cover;
+  box-shadow: 5px 5px 5px #000000;
+  color: white;
+}
+.submit-btn{
+  width: 100%;
+  font: normal 14px 'arial';
+  background-color: rgb(214, 214, 214);
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(136, 135, 135);
+}
+.submit-btn:hover{
+  background-color: rgb(255, 255, 255);
+    color: #000;
+}
+  .submit-btn:active{
+    background-color: rgb(214, 214, 214);
+    color: rgb(136, 135, 135);
+}
