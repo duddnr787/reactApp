@@ -58,9 +58,11 @@ public class BoardController {
 	      try {
 	    		boardService.regist(boardVO);
 	  			result.put("message", "등록이 완료 되었습니다.");
+			  	result.put("status", true);
 			} catch (Exception e) {
 				e.printStackTrace();
 				result.put("message", "등록이 불가합니다.");
+			  	result.put("status", true);
 			}
 			return result;
 		}
